@@ -38,8 +38,8 @@ function App() {
     }
   };
 
-  const handleNewQuote = () => {
-    fetchApi(config);
+  const handleNewQuote = async () => {
+    await fetchApi(config);
     colorChange();
   };
 
