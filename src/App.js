@@ -22,7 +22,7 @@ function App() {
 
   const colorChange = () => {
     let colorNum = Math.random() * 360;
-    setColor(`hsl(${colorNum},62%, 82%)`);
+    setColor(`hsl(${colorNum}, 56%, 54%)`);
   };
 
   const fetchApi = async config => {
